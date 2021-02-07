@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.styled-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  z-index: 4;
+}
+
+.dark-wrapper,
+.light-wrapper {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.dark-wrapper {
+  background-color: whitesmoke;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.dark-wrapper img {
+  filter: invert(1) hue-rotate(180deg);
+}
